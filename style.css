@@ -167,9 +167,10 @@ body.ready .hero-photo { animation: heroRise .7s ease .3s both; }
   max-width: 640px; margin: 0 auto 24px; font-size: 20px; color: var(--muted);
 }
 .hero-phone {
-  display: inline-block; color: var(--white); text-decoration: underline;
-  text-underline-offset: 4px; font-size: 27px; font-weight: 700; margin-bottom: 22px;
-  transition: color .15s ease;
+  display: inline-block; color: var(--white); text-decoration: none;
+  border-bottom: 2px solid currentColor; padding-bottom: 3px;
+  font-size: 27px; font-weight: 700; margin-bottom: 22px;
+  transition: color .15s ease, border-color .15s ease;
 }
 .hero-phone:hover { color: var(--gold-light); }
 .trust-line { color: var(--gold-light); font-size: 17px; font-weight: 600; }
