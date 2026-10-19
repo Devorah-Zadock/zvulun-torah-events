@@ -164,7 +164,7 @@ body.ready .hero-photo { animation: heroRise .7s ease .3s both; }
 }
 .hero h1 span { color: var(--gold); }
 .hero .lead {
-  max-width: 640px; margin: 0 auto 24px; font-size: 20px; color: var(--muted);
+  max-width: 640px; margin: 0 auto 24px; font-size: 20px; color: #fdfcfa;
 }
 .hero-phone {
   display: inline-block; color: var(--white); text-decoration: none;
@@ -292,7 +292,7 @@ body.ready .besd { animation: heroRise .7s ease both; }
 
 @media (max-width: 560px) {
   .brand-text { font-size: 14px; }
-  .eyelash { font-size: 16px; text-wrap: balance; }
+  .eyelash { text-wrap: balance; }
   .hero-phone { font-size: 22px; }
   .trust-line-2 { display: block; }
 }
