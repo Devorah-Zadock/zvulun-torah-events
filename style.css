@@ -200,6 +200,7 @@ body.ready .besd { animation: heroRise .7s ease both; }
   display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; padding: 34px 24px; text-align: center;
 }
 .stat span { color: var(--gold-light); font-weight: 700; font-size: 15px; }
+.stats-photo { max-width: 440px; margin: 0 auto 36px; }
 
 /* Sections */
 .section { padding: 84px 0; }
