@@ -193,7 +193,7 @@ body.ready .hero-photo { animation: heroRise .8s ease .3s both; }
 .hero-phone {
   display: inline-block; color: var(--ivory); text-decoration: none;
   border-bottom: 2px solid var(--gold); padding-bottom: 3px;
-  font-size: 29px; font-weight: 700; margin-bottom: 24px;
+  font-size: 32px; font-weight: 700; margin-bottom: 24px;
   transition: color .15s ease, border-color .15s ease;
   font-family: var(--font-display);
 }
@@ -337,7 +337,7 @@ body.ready .besd { animation: heroRise .8s ease both; }
 @media (max-width: 560px) {
   .brand-text { font-size: 15px; }
   .eyelash { text-wrap: balance; }
-  .hero-phone { font-size: 23px; }
+  .hero-phone { font-size: 26px; }
 }
 
 /* Gentle scroll-in reveal */
