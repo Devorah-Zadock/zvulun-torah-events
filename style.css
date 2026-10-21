@@ -173,7 +173,7 @@ body.ready .hero-photo { animation: heroRise .7s ease .3s both; }
   transition: color .15s ease, border-color .15s ease;
 }
 .hero-phone:hover { color: var(--gold-light); }
-.trust-line { color: var(--gold-light); font-size: 17px; font-weight: 600; }
+.trust-line { color: var(--gold-light); font-size: 19px; font-weight: 600; }
 
 /* Premium entrance sequence, played once when the page finishes loading */
 @keyframes heroRise { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
