@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700;900&family=Assistant:wght@400;600;700;800&display=swap');
 
 :root {
-  /* Royal night palette: deep purple-black through to a quiet wine undertone,
-     with warm antique gold instead of flat yellow — meant to read as
-     ceremonial/regal rather than generic "dark mode". */
+  /* Royal night palette: deep purple-black, with warm antique gold instead
+     of flat yellow — meant to read as ceremonial/regal rather than generic
+     "dark mode". */
   --bg-deep: #0b0417;
   --bg-mid: #1b1140;
   --bg-mid2: #241749;
-  --wine: #3a0f2c;
-  --wine-light: #4a1638;
   --gold: #d4af37;
   --gold-bright: #ffd76a;
   --gold-soft: #f1d48a;
@@ -243,7 +241,7 @@ body.ready .besd { animation: heroRise .8s ease both; }
 
 /* Sections */
 .section { padding: 90px 0; }
-.section-dark { background: linear-gradient(180deg, var(--wine), var(--wine-light)); }
+.section-dark { background: linear-gradient(180deg, var(--bg-mid), var(--bg-mid2)); }
 .kicker { color: var(--gold); font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; font-size: 13px; margin: 0 0 10px; text-align: center; }
 .section h2 {
   font-family: var(--font-display); font-weight: 700;
@@ -309,10 +307,12 @@ body.ready .besd { animation: heroRise .8s ease both; }
 .contact-line:hover { transform: translateY(-2px); border-color: rgba(212,175,55,.6); }
 
 /* Footer */
-.site-footer { background: var(--bg-deep); border-top: 1px solid rgba(212,175,55,.15); padding: 32px 0 90px; }
-.footer-inner { text-align: center; color: var(--muted); font-size: 14px; }
-.footer-inner p { margin: 4px 0; }
-.footer-inner p:first-child { font-family: var(--font-display); color: var(--gold-soft); font-size: 16px; }
+.site-footer { background: var(--bg-deep); border-top: 1px solid rgba(212,175,55,.15); padding: 36px 0 90px; }
+.footer-inner { text-align: center; color: var(--muted); font-size: 17px; }
+.footer-inner p { margin: 8px 0; }
+.footer-inner p:first-child { font-family: var(--font-display); color: var(--gold-soft); font-size: 22px; font-weight: 700; }
+.footer-inner a { text-decoration: none; transition: color .15s ease; }
+.footer-inner a:hover { color: var(--gold-bright); }
 
 @media (max-width: 880px) {
   .main-nav {
