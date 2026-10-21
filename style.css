@@ -224,13 +224,6 @@ body.ready .besd { animation: heroRise .7s ease both; }
 .card h3 { margin: 0; font-size: 17px; }
 .card p { margin: 8px 0 0; color: var(--muted); font-size: 14.5px; }
 
-/* Chuppah showcase — a real <img>, never cropped */
-.chuppah-photo {
-  display: block; width: 100%; max-width: 560px; height: auto; margin: 34px auto 0;
-  border-radius: var(--radius);
-  border: 1px solid rgba(212,175,55,.25); box-shadow: var(--shadow);
-}
-
 /* Addons */
 .addons-list {
   list-style: none; padding: 0; margin: 0 auto; max-width: 940px;
